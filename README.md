@@ -4,7 +4,7 @@
 
 To start the app open the index.html in your browser. IMPORTANT: It has got to Google Chrome. The app DOES NOT work in Firefox.
 
-At the bottom of the page you will find the results four Jasmine test suites:
+At the bottom of the page you will find the results of four Jasmine test suites:
 * RSS Feeds
 * The menu
 * Initial Entries
