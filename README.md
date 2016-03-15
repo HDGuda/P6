@@ -18,4 +18,4 @@ The first two tests are straightforward, synchronous tests. The last two are asy
 Especially interesting is the "New Feed Selection" test: There are two async calls of the loadFeed-function in app.js - one in the beforeEach-construction, the other in the it-declaration. In the first step an async call of the first feed is simulated, in the second step an async call of the second feed. This is to test if the content of the feed-div really changes if the user calls another feed.
 
 ### Future test
-The new test suite Language Filtering contains a possible future test that makes sure only feed entries in English are displayed.
+The new test suite Language Filtering contains a possible future test that makes sure only feed entries in English are displayed. The new function loadFilteredFeed (which still has to be written) will store the language-property of the html-tag of the linked page as a new class of each entry-link (e.g. "en" or "de").
